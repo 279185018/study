@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+#gp{
+	width:1300px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+header{
+	margin-top:10px;
+	display:grid;
+	grid:
+	"img p login" 60px/ 60px 880px 300px; 
+}
+header p{
+	margin-bottom:0;
+	margin-top:0;
+	margin-right:10px;
+	margin-left:10px;
+	font-size:2.75em;
+	grid-area:p;
+	background-color:rgb(40%,60%,0%);
+	text-align:center;
+	letter-spacing:1em;
+}
+ #log{
+	grid-area:img;
+	width:60px;
+}
+#dl{
+	margin-bottom:0;
+	margin-left:10px;
+    grid-area:login;
+}
+.xx{
+	margin-bottom:10px;
+	grid-area:login;
+}
+#dl1 img{
+	width:40px;
+}
+ /*******/
+ #door1{
+ width:50px;
+ height:50px;
+ background-color:green;
+ color:#F8F8FF;
+ }
+ #door2{
+  width:50px;
+ height:50px;
+ background-color:green;
+ color:#F8F8FF;
+  position: absolute;
+ right: 150px;
+  top: 160px;
+
+ }
+ #gd{
+ width: 20px;  
+ line-height: 100px;  
+  font-size: 20px;
+  background-color:#EEE5DE;
+  grid-area:T;
+ }
+#p1{
+font-size:30px;
+		text-align:center;
+		background-color:#FEECEA;
+		width:100%;
+}
+#p2,#p3,#p4{
+
+		text-align:center;
+		width:100%;
+}
+#pu{
+	width:100px; 
+	height:50px;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;	
+}
+
+.bu{
+	
+	width:70px; 
+	height:70px;
+		 font-size: 10px;
+		
+
+}
+.bu img{
+	width:50px; 
+	height:50px;
+}

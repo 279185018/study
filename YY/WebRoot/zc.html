@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>zc.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+   <link rel="stylesheet" type="text/css" href="./styles.css">
+
+  </head>
+  
+  <body lang="zh" id="zc">
+    <header>
+<a href="index.html"><img src="./img/img1.jpg" alt="回到首页" id="log"></a>
+<p>杨杨院线</p>
+<form  action="#" method="post"  id="dl" >
+账户：<input type="text" id="id" class="xx" >
+<input type="submit" value="登录" onclick="dl()" class="xx" ><br>
+密码：<input type="password" id="psd">
+<input type="button" value="注册"  ><br>
+</form>
+</header>
+<div id="zc1">
+       <form  id="login" action="./jsp/zc.jsp" method="post" >
+     用户注册<br>
+        账号：<input type="text" name="zid" value="请输入4位数字账号"><br>
+        密 码：
+           <input type="text" name="zpassword" value="请输入密码"><br>
+        姓名：<input type="text" name="zname" value="请输入您的名字"><br>
+        性别：<input type="text" name="sex" value="请输入您的性别"><br>
+         年龄：<input type="text" name="age" value="请输入您的年龄"><br>
+           邮箱：<input type="text" name="yx" value="请输入您的邮箱"><br>
+                    兴趣：<input type="text" name="xq" value="请输入您的兴趣"><br>
+                            喜欢的电影：<input type="text" name="lofilm" value="请输入您喜欢的电影"><br>
+           <input type="submit" value="注册" >
+      </form>
+       <script type="text/javascript" src="./js/login.js"></script>
+       </div>
+  </body>
+</html>

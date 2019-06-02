@@ -1,0 +1,137 @@
+@CHARSET "UTF-8";
+#window2{
+	display:grid;
+	grid:
+	"wa bo"100%/1fr 1fr;
+}
+#wa{
+	width:500px;
+	height:700px;
+	grid-area:wa;
+}
+#bo{
+	margin-top:200px;
+	margin-left:100px;
+	grid-area:bo;
+}
+.p2{
+	display:inline;
+}
+
+
+
+
+/**********************************************************************************/
+#grzy{
+	width:1300px;
+	margin-right:auto;
+	margin-left:auto;
+	display:grid;
+	grid:
+	"header header" 100px
+	"nav window" min-content/100px 1200px;
+}
+#nav{
+	margin-top:8px;
+	text-align:center;
+	background-color:#E3E3E3;
+	height:600px;
+	grid-area:nav;
+	display:flex;
+	flex-direction:column;
+}
+.a
+{	background-color:#00FFFF;
+		margin-top:100px;
+	 cursor: pointer;
+}
+.a2{
+margin-top:100px;
+	background-color:#F0F8FF;
+}
+#window{
+	grid-raea:window;
+	display:grid;
+	grid:
+	"tit1"min-content
+	"aa" 200px
+	"tit2"min-content
+	"tit4"min-content/1300px;
+}
+
+h2,h4,h5{
+	margin:0 0 10px 0;
+}
+h1{
+	text-align:center;
+	color:red;
+}
+#pj{
+		background-color:#FAEBD7;	
+		text-align:center;
+	
+}
+#pj1{
+		background-color:#98F5FF;	
+		text-align:center;
+	
+}
+#pj2{
+		background-color:#00FF7F;	
+		text-align:center;
+	
+}
+#tit1{
+	margin:0 0 10px 0;
+	background-color:rgb(100%,80%,100%);
+text-align:center;
+	grid-area:tit1;
+}
+#tit2{
+	margin:10px 0 10px 0;
+	background-color:rgb(100%,80%,100%);
+	text-align:center;
+	grid-area:tit2;
+}
+
+
+
+
+/***************************************/
+header{
+	margin-top:10px;
+	grid-area:header;
+	display:grid;
+	grid:
+	"img p login" 60px/ 60px 880px 300px; 
+}
+header p{
+	margin-bottom:0;
+	margin-top:0;
+	margin-right:10px;
+	margin-left:10px;
+	font-size:2.75em;
+	grid-area:p;
+	background-color:rgb(40%,60%,0%);
+	text-align:center;
+	letter-spacing:1em;
+
+}
+ #log{
+	grid-area:img;
+	width:60px;
+}
+#dl{
+	margin-bottom:0;
+	margin-left:10px;
+    grid-area:login;
+}
+.xx{
+	margin-bottom:10px;
+	grid-area:login;
+}
+
+#dl1 img{
+	width:40px;
+	
+}

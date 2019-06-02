@@ -1,0 +1,178 @@
+@CHARSET "UTF-8";
+        #ace{
+		float:left;
+		font-size:30px;
+		text-align:center;
+		background-color:#FEECEA;
+		width:100%;
+}
+#cz{
+	width:200px;
+	height:100px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.num1{
+	font-style:italic;
+	padding:10px;
+	width:15%;
+	height:15%;
+	float:left;
+background-color:red;
+font-size:30px;
+margin-right:20px;
+
+}
+.num{
+	float:left;
+	width:400px;
+	height:30%;
+margin-top:20px;
+}                                   /*主页结构*/
+#zy{
+	width:1300px;
+	margin-right:auto;
+	margin-left:auto;
+	display:grid;
+	grid:
+	"header header" 100px
+	"film text" 300px
+	"say say" min-content
+	"pp pp" min-content/1fr 1fr;
+}
+header{
+	margin-top:10px;
+	grid-area:header;
+	display:grid;
+	grid:
+	"img p login" 60px/ 60px 880px 300px; 
+}
+#film{
+	margin-top:10px;
+	grid-area:film;
+	margin-right:20px;
+}
+#text{
+	text-align:center;
+	margin-top:10px;
+	grid-area:text; 
+}
+#pp{
+	text-align:center;
+	grid-area:pp;
+}
+
+/*头部*/
+header p{
+	margin-bottom:0;
+	margin-top:0;
+	margin-right:10px;
+	margin-left:10px;
+	font-size:2.75em;
+	grid-area:p;
+	background-color:rgb(40%,60%,0%);
+	text-align:center;
+	letter-spacing:1em;
+
+}
+ #log{
+	grid-area:img;
+	width:60px;
+}
+#dl{
+	margin-bottom:0;
+	margin-left:10px;
+    grid-area:login;
+}
+.xx{
+	margin-bottom:10px;
+	grid-area:login;
+}
+
+#dl1 img{
+	width:40px;
+	
+}
+/*当前热映*/
+.fbb{
+	float:left;
+	width:100px;
+	height:100px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	
+}
+
+.faa{
+	display:block;
+margin-right:auto;
+	margin-left:auto;
+    clip-path:none;
+	width:60px;
+	height:60px;
+	
+}
+.fbb p{
+	color:black;
+	font-size:0.75em;
+	 text-align: center;
+	
+}
+.faa:hover{
+	  display:block;
+margin-right:auto;
+	margin-left:auto;
+	  clip-path:circle(30px at 50% 50%);
+	width:60px;
+	height:60px;
+	padding:0px 0px 0px 0px;
+	 
+}
+/*最新影讯*/
+
+#ta{
+	width:25px;
+	height:15px;	
+}
+#tb{
+	width:25px;
+	height:15px;
+}
+#tp p{
+	display:inline;
+}
+#ta:hover{
+	margin-right:10px;;
+}
+#tb:hover{
+	margin-left: 10px;
+}
+/*最佳影评*/
+
+#pp p{
+	
+	background-color:rgb(100%,80%,100%);
+}
+    /****************************************************/
+   #zc{
+   width:1300px;
+	margin-right:auto;
+	margin-left:auto;
+   }     
+    #zc1{
+ text-align: center;
+
+   }  
+   /*************************/
+   #zy{
+     width:1300px;
+	margin-right:auto;
+	margin-left:auto;
+   }         
+   #xx{
+   text-align: center;
+   margin-right:auto;
+	margin-left:auto;
+   
+   }                      

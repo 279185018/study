@@ -1,0 +1,159 @@
+@CHARSET "UTF-8";
+ /*电影单页结构*/
+#dydy{
+	width:1300px;
+	margin-right:auto;
+	margin-left:auto;
+	display:grid;
+	grid:
+	"header header" 100px
+	"video tit" 350px
+	"img img" 220px
+	"tab tab" min-content
+	"button button"
+	"pp pp" min-content/1fr 1fr;
+}
+header{
+	margin-top:10px;
+	grid-area:header;
+	display:grid;
+	grid:
+	"img p login" 60px/ 60px 880px 300px; 
+}
+
+video{
+	grid-area:video;
+    padding-bottom:10px;
+	width:550px;
+}
+#tit{
+	grid-area:tit;
+	text-align:center;
+}
+#tit h4{
+	text-align:left;
+}
+#tit #htext{
+	text-indent:2em;
+	text-align:left;
+}
+#img5{
+	grid-area:img;
+	text-align:center;
+	margin-bottom:10px;
+}
+#img5 .qy{
+	width:100px;
+	height:200px;
+	margin:0 10px 0 10px;
+}
+#img5 .qy:hover{
+	width:120px;
+	height:200px;
+	margin:0 0 0 0;
+}
+#img5 .tp{
+	width:200px;
+	height:200px;
+	margin-left:10px;
+	margin-right:10px;
+}
+#tab{
+	grid-area:tab;
+}
+#tab th{
+	align:center;
+}
+#tab .trt{
+	text-align:center;
+}
+.dimg{
+	background-color:#FFFFFF;
+	width:60px;
+}
+.dimg img{
+	width:30px;
+	height:30px;
+	padding:10px;
+}
+.dimg img:hover{
+	width:40px;
+	height:40px;
+		padding:0px;
+}
+#da1{
+	width:350px;
+}
+#da1:hover{
+	width:350px;
+	background-color:#778899;
+}
+#da2{
+	width:350px;
+}
+#da2:hover{
+	width:350px;
+	background-color:#778899;
+}
+#da3{
+	width:350px;
+}
+#da3:hover{
+	width:350px;
+	background-color:#778899;
+}
+#tab .tr{
+	background-color:#55ADEA;
+	text-align:center;
+}
+#tab .trr{
+	background-color:#55ADEA;
+	text-align:center;
+}
+#tab .trr:hover{
+	background-color:#80ffff;
+}
+button {
+	grid-area:button;
+	margin-right:auto;
+	margin-left:auto;
+	background: red;
+	padding: 15px 30px;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+}
+#pp{
+	grid-area:pp;
+}
+/*头部*/
+header p{
+	margin-bottom:0;
+	margin-top:0;
+	margin-right:10px;
+	margin-left:10px;
+	font-size:2.75em;
+	grid-area:p;
+	background-color:rgb(40%,60%,0%);
+	text-align:center;
+	letter-spacing:1em;
+
+}
+ #log{
+	grid-area:img;
+	width:60px;
+}
+#dl{
+	margin-bottom:0;
+	margin-left:10px;
+    grid-area:login;
+}
+.xx{
+	margin-bottom:10px;
+	grid-area:login;
+}
+
+#dl1 img{
+	width:40px;
+	
+}

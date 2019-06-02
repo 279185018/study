@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>杨杨院线</title>
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="film.css">
+  </head>
+  
+  <body lang="zh" id="dydy">
+   
+   <header>
+<a href="../index.html"><img src="../img/img1.jpg" alt="回到首页" id="log"></a>
+<p>杨杨院线</p>
+<form  action="#" method="post"  id="dl" >
+账户：<input type="text" id="id" class="xx" >
+<input type="submit" value="登录" onclick="dl()" class="xx" ><br>
+密码：<input type="password" id="psd">
+<input type="button" value="注册"  onclick="zc()"><br>
+</form>
+</header>
+  <video src="../video/v3.mp4" controls autoplay="autoplay" ></video>
+  <div id="tit">
+  <h2>电影名：夏目友人帐</h2>
+  <h5>时长：1小时40分</h5>
+  <h4>剧情简介：</h4>
+  <h5 id="htext">每天在人与妖怪之间过着忙碌日子的夏目，偶然与过去的同学・结城重逢了，
+  以此想起了于妖怪有关的苦涩记忆。此时，夏目认识了在归还名字的妖怪记忆中出现的女性·
+  津村容莉枝。知晓玲子的她，现在和独子椋雄一起平静地生活着。夏目通过和他们交流，
+  心里也变得平静下来。但是这对母子所居住的城镇，似乎潜藏着神秘的妖怪。
+  在调查此事回来的路上，寄生于猫咪老师身体上的“妖之种”，在藤原家的庭院中，
+  一夜之间就长成树结出果实。不知为什么，吃掉了与自己形状相似果实的猫咪老师，
+  竟然分裂成了3个？</h5>
+  </div>
+  <div id="img5">
+  <img src="../img/img11.png" alt="上一页" class="qy" onclick="tb(0)" >
+    <img src="../img/3-1.jpg" alt="预览图片1" class="tp">
+     <img src="../img/3-2.jpg" alt="预览图片2" class="tp">
+     <img src="../img/3-3.jpg" alt="预览图片3" class="tp">
+     <img src="../img/3-4.jpg" alt="预览图片4" class="tp">
+  <img src="../img/img10.png" alt="下一页" class="qy" onclick="tp(5)" >
+  </div>
+  <table id="tab" border="1">
+  <tr><th  colspan="5">排片表</th></tr>
+  <tr><td class="dimg" onclick="fdd(0)"><img src="../img/img3.jpg" alt="上一天" ></td><td id="da1" > </td><td id="da2"> </td><td id="da3"> </td><td class="dimg" onclick="fdd(4)"><img src="../img/img4.jpg" alt="下一天" ></td></tr>
+  </table>
+  <button onclick="gp()" >购票</button>
+  <div id="pp"></div>
+      <script type="text/javascript" src="../js/login.js"></script>
+    <script type="text/javascript" src="../js/film.js"></script>
+  </body>
+ 
+</html>
